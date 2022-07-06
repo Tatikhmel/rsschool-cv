@@ -1,3 +1,20 @@
+/*Photo and contact details*/
+:root{
+    height: 800px;
+    width: 600px;
+    font-family: 'Montserrat', sans-serif;;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 20px;
+
+}
+div {
+    float: left;
+    margin: 5px;
+}
+
+/*img and contacts box*/
 img{
     height: 150px;
     border-radius: 50%;
@@ -5,23 +22,37 @@ img{
 }
 .contacts{
     background-color: rgb(235, 219, 209);
-    float: left;
-    height: 750px;
-    width: 200px;
+    height: 767px;
 }
+
+/*Fonts of headlines, paragraphs and lists*/
 h1, h2{
     background-color: #66666E;
-    margin-left: 5px;
-    position:relative;
-    width: 95%;
-    color: rgb(235, 219, 209);
-    font-family: Roboto;
+    color: rgb(247, 242, 240);
     text-transform: uppercase;
     font-size: 15px;
+    text-align: center;
+    margin-top: 18px;
+
 }
-p{
-    margin-left: 10px;
-    font-family: Roboto;
+p, ul {
     color: #120309;
     font-size: 12px;
+    line-height: 180%;
+    text-align: justify;
+}
+span{
+    font-weight: bold;
+}
+/*Name card box*/
+.name{
+    background-color: #66666E;
+    color: rgb(240, 234, 231);
+    height: 80px;
+    width: 60%;
+}
+
+/*Main info box*/
+.main{
+    width: 60%;
 }
