@@ -23,7 +23,7 @@ My career jorney started with English-Chinese-Russian written and oral translati
 * prioritize tasks;
 * in case of coming across any difficulties, I'm able to independently make research and find suitable solutions and only if it is impossible to solve the problem on my own, seek to colleagues for help etc.
 
-## Code example:
+## Code example: 
 
 ## Courses:
 * HTML and CSS Tutorials on ru.code-basics.com;
