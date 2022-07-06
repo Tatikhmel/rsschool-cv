@@ -1,1 +1,27 @@
-
+img{
+    height: 150px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.contacts{
+    background-color: rgb(235, 219, 209);
+    float: left;
+    height: 750px;
+    width: 200px;
+}
+h1, h2{
+    background-color: #66666E;
+    margin-left: 5px;
+    position:relative;
+    width: 95%;
+    color: rgb(235, 219, 209);
+    font-family: Roboto;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+p{
+    margin-left: 10px;
+    font-family: Roboto;
+    color: #120309;
+    font-size: 12px;
+}
