@@ -1,17 +1,22 @@
 /*Photo and contact details*/
 :root{
-    height: 800px;
-    width: 600px;
-    font-family: 'Montserrat', sans-serif;;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     background-color: white;
-    margin: 20px;
-
 }
+html, body {
+    height: 100%;
+}
+
 div {
     float: left;
     margin: 5px;
+    margin-bottom: 20px;
+    width: calc(100% - 220px);
 }
 
 /*img and contacts box*/
@@ -22,7 +27,8 @@ img{
 }
 .contacts{
     background-color: rgb(235, 219, 209);
-    height: 767px;
+    height: 100%;
+    width: fit-content;
 }
 
 /*Fonts of headlines, paragraphs and lists*/
@@ -49,10 +55,12 @@ span{
     background-color: #66666E;
     color: rgb(240, 234, 231);
     height: 80px;
-    width: 60%;
+    width: calc(100% - 220px);
 }
 
 /*Main info box*/
-.main{
-    width: 60%;
+.code, .courses, .languages{
+    height: 80px;
+    margin-bottom: 20px;
+    float: right;
 }
