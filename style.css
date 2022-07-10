@@ -14,8 +14,8 @@ html, body {
 
 div {
     float: left;
-    margin: 5px;
     margin-bottom: 20px;
+    margin: 5px;
     width: calc(100% - 220px);
 }
 
@@ -29,6 +29,11 @@ img{
     background-color: rgb(235, 219, 209);
     height: 100%;
     width: fit-content;
+}
+.contacts:after{
+content: "";
+display: table;
+clear: both;
 }
 
 /*Fonts of headlines, paragraphs and lists*/
@@ -56,11 +61,4 @@ span{
     color: rgb(240, 234, 231);
     height: 80px;
     width: calc(100% - 220px);
-}
-
-/*Main info box*/
-.code, .courses, .languages{
-    height: 80px;
-    margin-bottom: 20px;
-    float: right;
 }
